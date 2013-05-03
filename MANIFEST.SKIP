@@ -1,2 +1,3 @@
 ~$	# skip emacs backup files
 .bak	# skip manual backup files
+.git    # skip my git repository

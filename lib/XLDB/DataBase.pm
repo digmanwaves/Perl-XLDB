@@ -139,6 +139,16 @@ sub __checkHeaderEntry {
   return 0;
 }
 
+sub _registerValueHeaderEntry {
+  my $self = shift;
+
+  my ( $headerAcronym, $valueHeaderAcronym ) = @_;
+
+  $self->{header}->{$valueHeaderAcronym} = 
+    { COLNR => $self->{header}->{$headerAcronym}->{COLNR} + 1,
+      LABEL => $self->{header}->{$headerAcronym}->{LABEL} . "-value" };
+}
+
 sub parseLine {
   my $self = shift;
   my ( $rownr ) = @_;

@@ -37,10 +37,10 @@ __END__
 
 =head1 COPYRIGHT
 
- CONFIDENTIAL AND PROPRIETARY (C) 2013 Digital Manifold Waves
+ CONFIDENTIAL AND PROPRIETARY (C) 2013 Walter Daems / Digital Manifold Waves
 
 =head1 AUTHOR
 
- Digital Manifold Waves -- F<walter.daems@ua.ac.be>
+ Digital Manifold Waves -- F<walter@digmanwaves.net>
 
 =cut

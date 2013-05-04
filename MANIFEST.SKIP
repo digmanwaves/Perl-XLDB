@@ -1,3 +1,6 @@
 ~$	# skip emacs backup files
 .bak	# skip manual backup files
 .git    # skip my git repository
+.tar    # no tar files
+.tar.gz # nor gziped
+.ppd    # no ppd file (goes separate)

@@ -1,0 +1,14 @@
+<SOFTPKG NAME="XLDB" VERSION="1.00">
+  <ABSTRACT>Read and write structured data from excel files (Office Open XML)</ABSTRACT>
+  <AUTHOR>Walter Daems / Digital Manifold Waves &lt;walter@digmanwaves.net&gt;</AUTHOR>
+  <PROVIDE NAME="XLDB::DataBase" VERSION="1.00" />
+  <PROVIDE NAME="XLDB::File" VERSION="1.00" />
+  <PROVIDE NAME="XLDB::IFile" VERSION="1.00" />
+  <PROVIDE NAME="XLDB::OFile" VERSION="1.00" />
+  <PROVIDE NAME="XLDB::Sheet" VERSION="1.00"/>
+  <IMPLEMENTATION>
+    <REQUIRE NAME="Encode::" />
+    <REQUIRE NAME="Spreadsheet::XLSX" />
+    <CODEBASE HREF="XLDB-1.00.tar.gz" />
+  </IMPLEMENTATION>
+</SOFTPKG>

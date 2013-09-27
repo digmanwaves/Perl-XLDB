@@ -118,6 +118,21 @@ sub _generateFormats {
   $self->{fmt}->{L}->set_align( 'left' );
   $self->{fmt}->{L}->set_align( 'top' );
 
+  $self->{fmt}->{LP0} = $self->{Book}->add_format();
+  $self->{fmt}->{LP0}->set_align( 'left' );
+  $self->{fmt}->{LP0}->set_align( 'top' );
+  $self->{fmt}->{LP0}->set_num_format( '0%' );
+
+  $self->{fmt}->{LP1} = $self->{Book}->add_format();
+  $self->{fmt}->{LP1}->set_align( 'left' );
+  $self->{fmt}->{LP1}->set_align( 'top' );
+  $self->{fmt}->{LP1}->set_num_format( '0.0%' );
+
+  $self->{fmt}->{LP2} = $self->{Book}->add_format();
+  $self->{fmt}->{LP2}->set_align( 'left' );
+  $self->{fmt}->{LP2}->set_align( 'top' );
+  $self->{fmt}->{LP2}->set_num_format( '0.00%' );
+
   $self->{fmt}->{Lb} = $self->{Book}->add_format();
   $self->{fmt}->{Lb}->set_align( 'left' );
   $self->{fmt}->{Lb}->set_align( 'top' );
@@ -271,6 +286,11 @@ sub _generateFormats {
   $self->{fmt}->{RI2}->set_align( 'right' );
   $self->{fmt}->{RI2}->set_align( 'top' );
   $self->{fmt}->{RI2}->set_indent( 2 );
+
+  $self->{fmt}->{RP1} = $self->{Book}->add_format();
+  $self->{fmt}->{RP1}->set_align( 'right' );
+  $self->{fmt}->{RP1}->set_align( 'top' );
+  $self->{fmt}->{RP1}->set_num_format( '0.0%' );
 
   $self->{fmt}->{RI1P1} = $self->{Book}->add_format();
   $self->{fmt}->{RI1P1}->set_align( 'right' );
